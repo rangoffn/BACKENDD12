@@ -13,8 +13,7 @@ namespace BACKENDD.Data
             // Иначе добавляем несколько начальных данных
             var contacts = new Contact[]
             {
-                new Contact { Name = "Иван", SecName = "Иванов", Age = 30, Email = "ivan@example.com", Message = "Привет!" },
-                new Contact { Name = "Мария", SecName = "Петрова", Age = 25, Email = "maria@example.com", Message = "Как дела?" }
+                new Contact { Name = "Пример", SecName = "Пример", Age = 30, Email = "Пример@example.com", Message = "Пример!!!!" },
             };
 
             context.Contacts.AddRange(contacts);

@@ -16,6 +16,14 @@ namespace BACKENDD.Controllers
         {
             return View();
         }
+        public IActionResult NewTABBB()
+        {
+            return View();
+        }
+        public IActionResult Privacy()
+        {
+            return View();
+        }
 
         // Обработка формы и сохранение контакта
         [HttpPost]

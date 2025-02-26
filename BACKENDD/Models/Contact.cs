@@ -9,28 +9,28 @@ namespace BACKENDD.Models
         public int Id { get; set; }  
 
         [Display(Name = "Введите Имя")]
-        [Required(ErrorMessage = "НУЖНО ИМЯ!")]
+        [Required(ErrorMessage = "ЗАПОЛНИТЕ!")]
 
         public required string Name { get; set; }
 
         [Display(Name = "Введите Фамилию")]
-        [Required(ErrorMessage = "НУЖНА ФАМИЛИЯ!")]
+        [Required(ErrorMessage = "ЗАПОЛНИТЕ!")]
 
 
         public required string SecName { get; set; }
 
         [Display(Name = "Введите Возраст")]
-        [Required(ErrorMessage = "НУЖЕН ВОЗРАСТ!")]
+        [Required(ErrorMessage = "ЗАПОЛНИТЕ!")]
 
         public required int Age { get; set; }
 
         [Display(Name = "Введите Почту")]
-        [Required(ErrorMessage = "НУЖНА ПОЧТА!")]
+        [Required(ErrorMessage = "ЗАПОЛНИТЕ!")]
 
         public required string Email { get; set; }
 
         [Display(Name = "Введите Сообщение")]
-        [Required(ErrorMessage = "НУЖНО СООБЩЕНИЕ!")]
+        [Required(ErrorMessage = "ЗАПОЛНИТЕ!")]
 
         public required string Message { get; set; }
 
