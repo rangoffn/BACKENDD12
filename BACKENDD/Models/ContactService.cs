@@ -25,7 +25,7 @@ namespace BACKENDD.Models
         // Метод для получения всех контактов
         public List<Contact> GetAllContacts()
         {
-            return _context.Contacts.ToList();  // Возвращаем все контакты из базы
+            return _context.Contacts.OrderBy(c => c.Id).ToList(); // Возвращаем все контакты из базы
         }
     }
 }

@@ -99,7 +99,7 @@ header {
 @media screen and (max-width: 768px) {
     body {
         font-size: 16px;
-        padding-bottom: 100px; /* Обеспечиваем место для футера */
+        padding-bottom: 100px; /* Обеспечиваем место для футера  */
     }
 
     main input:not([type="submit"]), main textarea {
